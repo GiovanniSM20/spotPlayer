@@ -13,7 +13,7 @@ class TableViewController: UITableViewController {
     
     var names = [String]()
     
-    var searchURL = "https://api.spotify.com/v1/search?q=Sage+The+Semini&type=track"
+    var searchURL = "https://api.spotify.com/v1/search?q=Shawn+Mendes&type=track"
     
     typealias JSONStandard = [String : AnyObject]
     
@@ -39,6 +39,8 @@ class TableViewController: UITableViewController {
                         
                         let name = item["name"] as! String
                         names.append(name)
+                        
+                        self.tableView.reloadData()
                     }
                     
                 }
