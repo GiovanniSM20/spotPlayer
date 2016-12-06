@@ -13,7 +13,7 @@ class TableViewController: UITableViewController {
     
     var names = [String]()
     
-    var searchURL = "https://api.spotify.com/v1/search?q=Shawn+Mendes&type=track"
+    var searchURL = "https://api.spotify.com/v1/search?q=Frank+Sinatra&type=track"
     
     typealias JSONStandard = [String : AnyObject]
     
@@ -33,9 +33,9 @@ class TableViewController: UITableViewController {
         do {
             var readableJSON = try JSONSerialization.jsonObject(with: JSONData, options: .mutableContainers) as! JSONStandard
             if let tracks = readableJSON["tracks"] as? JSONStandard{
-                if let items = tracks["items"]{
+                if let items = tracks["items"] as? [JSONStandard]{
                     for i in 0..<items.count{
-                        let item = items[i] as! JSONStandard
+                        let item = items[i]
                         
                         let name = item["name"] as! String
                         names.append(name)
