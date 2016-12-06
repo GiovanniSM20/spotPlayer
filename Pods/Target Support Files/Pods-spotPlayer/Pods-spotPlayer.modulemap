@@ -1,0 +1,6 @@
+framework module Pods_spotPlayer {
+  umbrella header "Pods-spotPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
