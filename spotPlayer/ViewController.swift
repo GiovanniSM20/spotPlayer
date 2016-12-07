@@ -20,7 +20,7 @@ class TableViewController: UITableViewController {
     
     var posts = [post]()
     
-    var searchURL = "https://api.spotify.com/v1/search?q=Shawn+Mendes&type=track"
+    var searchURL = "https://api.spotify.com/v1/search?q=Frank+Sinatra&type=track"
     
     typealias JSONStandard = [String : AnyObject]
     
@@ -84,6 +84,15 @@ class TableViewController: UITableViewController {
         mainLabel.text = posts[indexPath.row].name
         
         return cell!
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?){
+        let indexPath = self.tableView.indexPathForSelectedRow?.row
+        
+        let vc = segue.destination as! AudioVC
+        
+        vc.image = posts[indexPath!].mainImage
+        vc.mainSongTitle = posts[indexPath!].name
     }
     
     

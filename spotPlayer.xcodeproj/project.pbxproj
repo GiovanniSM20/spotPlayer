@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D18E73E99F617D0E7EE72594 /* Pods_spotPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 868714A04A538853F6890240 /* Pods_spotPlayer.framework */; };
+		FD47F0681DF84D6C006BD399 /* AudioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD47F0671DF84D6C006BD399 /* AudioVC.swift */; };
 		FD486DD01DF5BF200038F315 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486DCF1DF5BF200038F315 /* AppDelegate.swift */; };
 		FD486DD21DF5BF200038F315 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD486DD11DF5BF200038F315 /* ViewController.swift */; };
 		FD486DD51DF5BF200038F315 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD486DD31DF5BF200038F315 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 		38C62CD8AF8138F165483EBC /* Pods-spotPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spotPlayer/Pods-spotPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		868714A04A538853F6890240 /* Pods_spotPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spotPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0F5E7E57B2486DE1CA5009E /* Pods-spotPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spotPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-spotPlayer/Pods-spotPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		FD47F0671DF84D6C006BD399 /* AudioVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioVC.swift; sourceTree = "<group>"; };
 		FD486DCC1DF5BF200038F315 /* spotPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD486DCF1DF5BF200038F315 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD486DD11DF5BF200038F315 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				FD486DCF1DF5BF200038F315 /* AppDelegate.swift */,
 				FD486DD11DF5BF200038F315 /* ViewController.swift */,
 				FD486DD31DF5BF200038F315 /* Main.storyboard */,
+				FD47F0671DF84D6C006BD399 /* AudioVC.swift */,
 				FD486DD91DF5BF200038F315 /* Assets.xcassets */,
 				FD486DDB1DF5BF200038F315 /* LaunchScreen.storyboard */,
 				FD486DDE1DF5BF200038F315 /* Info.plist */,
@@ -218,6 +221,7 @@
 				FD486DD81DF5BF200038F315 /* spotPlayer.xcdatamodeld in Sources */,
 				FD486DD21DF5BF200038F315 /* ViewController.swift in Sources */,
 				FD486DD01DF5BF200038F315 /* AppDelegate.swift in Sources */,
+				FD47F0681DF84D6C006BD399 /* AudioVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
