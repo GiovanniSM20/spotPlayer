@@ -22,7 +22,7 @@ class TableViewController: UITableViewController {
     
     var posts = [post]()
     
-    var searchURL = "https://api.spotify.com/v1/search?q=Frank+Sinatra&type=track"
+    var searchURL = "https://api.spotify.com/v1/search?q=Shawn+Mendes&type=track"
     
     typealias JSONStandard = [String : AnyObject]
     
